@@ -14,10 +14,11 @@ A pipeline for generating sample-specific HIV-1 consensus sequences by mapping s
 This repository covers everything **from a pre-built pangenome graph to a sample-specific consensus** (and an optional benchmarking step). Graph construction itself is upstream of this pipeline and was done with [Panalyze](https://github.com/downingtim/Panalyze); the graph and its accompanying MSA are provided as inputs in `example/inputs/`.
 
 ## Repository layout
+```
 scripts/             Pipeline scripts 
 example/inputs/      Demo dataset (HIV-1 SIM_AE simulated reads + pre-built graph)
-
 HOW_TO_RUN.md        Step-by-step run instructions
+```
 
 ## Requirements
 
