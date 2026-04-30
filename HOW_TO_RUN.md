@@ -72,4 +72,4 @@ Replace the example filenames with yours. The required inputs are:
 - A PGGB-built variation graph (`.gfa`) with PanSN-tagged paths (sequences ending in `#0#genome`)
 - The gapped MSA used to build the graph, with matching PanSN-tagged headers
 - Paired-end FASTQ reads for one sample
-- (Optional) A ground truth FASTA and a Shiver consensus, if you want to run Stage 3
+- (Optional) A ground truth FASTA and a Shiver consensus
