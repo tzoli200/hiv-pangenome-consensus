@@ -2,7 +2,7 @@
 
 A pipeline for generating sample-specific HIV-1 consensus sequences by mapping short reads against a **pangenome variation graph** (PGGB) instead of a single reference. Aiming to avoid the reference bias that affects single-reference workflows on a virus as diverse as HIV-1.
 
-## What it does
+## Pipeline overview
 
 1. **Map** paired-end short reads to a PGGB pangenome graph with GraphAligner
 2. **Build** a coordinate translation table between graph positions and MSA columns
